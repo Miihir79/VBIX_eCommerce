@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VBIX_eCommerce</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="verify_btn">Verify</string>
+    <string name="otp_getCOde">Enter the code that was sent to</string>
+    <string name="edtxt_Code">Enter Six digit code</string>
+    <string name="otp_missing_code">I Didn\'t Get A Code</string>
+    <string name="descrip_canclebtn">Cancle button</string>
+    <string name="appName">k bazar</string>
+    <string name="Logo_imgView">Our Apps logo</string>
+    <string name="btn_verify">Get Otp</string>
+    <string name="verify_number">Verify Your Number</string>
+    <string name="edtxt_mobNo">Mobile Number</string>
+    <string name="signUp_txt">Enter Your Detials</string>
+    <string name="edtxt_name">Full Name</string>
+    <string name="btn_signUp">Sign Up</string>
+    <string name="edtxt_hint_mail">E-Mail</string>
+    <string name="text_getStarted">The best way to shop groceries at your fingertips.\n Let\'s get started!</string>
+    <string name="btn_getStarted">Get Started</string>
+    <string name="welcome_to">Welcome to</string>
+</resources>
