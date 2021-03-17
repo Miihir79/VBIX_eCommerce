@@ -1,8 +1,9 @@
-package com.example.vbix_ecommerce.authUi
+package com.example.ecommerce.authUi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.vbix_ecommerce.R
+import com.example.ecommerce.R
+
 
 class FragmentContainer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

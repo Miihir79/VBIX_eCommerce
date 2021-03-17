@@ -1,4 +1,4 @@
-package com.example.vbix_ecommerce
+package com.example.ecommerce
 
 import org.junit.Test
 

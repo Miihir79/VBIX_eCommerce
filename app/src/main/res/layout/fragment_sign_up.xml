@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5"
-    tools:context=".authUi.PhoneVerify">
+   >
 
     <include
         android:id="@+id/include"
-        layout="@layout/custom_appbar"
+        layout="@layout/custom_appbar_plus"
         />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,12 +19,12 @@
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_148sdp"
+            android:layout_marginTop="108dp"
             android:fontFamily="@font/montserratsemibold"
             android:text="@string/signUp_txt"
             android:textAlignment="viewStart"
             android:textColor="#020202"
-            android:textSize="@dimen/_24ssp"
+            android:textSize="@dimen/_22ssp"
             app:layout_constraintEnd_toEndOf="@+id/cardView"
             app:layout_constraintHorizontal_bias="0.185"
             app:layout_constraintStart_toStartOf="@+id/cardView"
@@ -35,10 +35,12 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/_307sdp"
             android:layout_marginStart="@dimen/_8sdp"
-            android:layout_marginTop="@dimen/_62sdp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginBottom="60dp"
             android:background="#F7F7F7"
             app:cardBackgroundColor="#F7F7F7"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9">
@@ -63,12 +65,15 @@
                         android:layout_marginStart="@dimen/_30sdp"
                         android:layout_marginEnd="@dimen/_30sdp"
                         android:background="#F7F7F7"
+                        app:boxStrokeColor = "#515C6F"
+                        app:hintTextColor = "#515C6F"
                         android:drawableEnd="@drawable/ic_baseline_perm_identity_24"
                         android:ems="10"
                         android:hint="@string/edtxt_name"
                         android:inputType="phone"
                         android:paddingStart="@dimen/_5sdp"
                         android:paddingEnd="@dimen/_5sdp"
+                        android:textColor="#515C6F"
                         android:textColorHint="#515C6F" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -119,6 +124,7 @@
                         android:inputType="phone"
                         android:paddingStart="@dimen/_5sdp"
                         android:paddingEnd="@dimen/_5sdp"
+                        android:textColor="#515C6F"
                         android:textColorHint="#515C6F" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -145,6 +151,7 @@
                         android:inputType="phone"
                         android:paddingStart="@dimen/_5sdp"
                         android:paddingEnd="@dimen/_5sdp"
+                        android:textColor="#515C6F"
                         android:textColorHint="#515C6F" />
 
                 </com.google.android.material.textfield.TextInputLayout>

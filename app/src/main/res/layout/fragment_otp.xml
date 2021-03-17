@@ -96,6 +96,7 @@
                         android:inputType="phone"
                         android:paddingStart="@dimen/_5sdp"
                         android:paddingEnd="@dimen/_5sdp"
+                        android:textColor="#515C6F"
                         android:textColorHint="#515C6F" />
                 </com.google.android.material.textfield.TextInputLayout>
 

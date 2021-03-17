@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5"
-    tools:context=".authUi.PhoneVerify">
+    >
     <include
         android:id="@+id/include"
-        layout="@layout/custom_appbar"
+        layout="@layout/custom_appbar_plus"
         />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -37,13 +37,14 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="137dp"
+            android:layout_marginTop="136dp"
             android:fontFamily="@font/montserratsemibold"
             android:text="@string/verify_number"
             android:textAlignment="viewStart"
             android:textColor="#020202"
-            android:textSize="@dimen/_28ssp"
+            android:textSize="@dimen/_24ssp"
             app:layout_constraintEnd_toEndOf="@+id/phonenum"
+            app:layout_constraintHorizontal_bias="0.168"
             app:layout_constraintStart_toStartOf="@+id/phonenum"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,13 +63,14 @@
                 android:layout_height="@dimen/_50sdp"
                 android:layout_marginStart="@dimen/_30sdp"
                 android:layout_marginEnd="@dimen/_30sdp"
-                android:background="#F5F5F5"
+                android:background="#F7F7F7"
                 android:drawableEnd="@drawable/ic_baseline_call_24"
                 android:ems="10"
                 android:hint="@string/edtxt_mobNo"
                 android:inputType="phone"
                 android:paddingStart="@dimen/_5sdp"
                 android:paddingEnd="@dimen/_5sdp"
+                android:textColor="#515C6F"
                 android:textColorHint="#515C6F" />
         </com.google.android.material.textfield.TextInputLayout>
 
