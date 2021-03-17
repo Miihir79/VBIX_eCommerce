@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/spls_txt_wlkm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_172sdp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/spls_txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/amita"
@@ -33,10 +33,10 @@
         android:textSize="@dimen/_60ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/spls_txt_wlkm" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/spls_txt_mess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
@@ -48,10 +48,10 @@
         android:textSize="@dimen/_14ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/spls_txt_name" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/spls_btn_GS"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_58sdp"
@@ -68,10 +68,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/spls_txt_mess" />
 
     <ImageView
-        android:id="@+id/imageButton"
+        android:id="@+id/spls_imgV_cross"
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_16sdp"
@@ -82,7 +82,7 @@
         app:srcCompat="@drawable/ic_baseline_clear_24"
         tools:ignore="VectorDrawableCompat" />
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/spls_imgV_bg"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fitsSystemWindows="true"

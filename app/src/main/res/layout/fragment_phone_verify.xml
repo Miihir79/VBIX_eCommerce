@@ -17,7 +17,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/get_otp"
+            android:id="@+id/Vrfy_btn_getOtp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_30sdp"
@@ -31,10 +31,10 @@
             app:backgroundTint="#F2BB13"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/phonenum" />
+            app:layout_constraintTop_toBottomOf="@+id/Vrfy_edtxt_name" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/Vrfy_txt_verify"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="136dp"
@@ -43,19 +43,19 @@
             android:textAlignment="viewStart"
             android:textColor="#020202"
             android:textSize="@dimen/_24ssp"
-            app:layout_constraintEnd_toEndOf="@+id/phonenum"
+            app:layout_constraintEnd_toEndOf="@+id/Vrfy_edtxt_name"
             app:layout_constraintHorizontal_bias="0.168"
-            app:layout_constraintStart_toStartOf="@+id/phonenum"
+            app:layout_constraintStart_toStartOf="@+id/Vrfy_edtxt_name"
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/phonenum"
+            android:id="@+id/Vrfy_edtxt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_194sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4">
+            app:layout_constraintTop_toBottomOf="@+id/Vrfy_txt_verify">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextPhone"

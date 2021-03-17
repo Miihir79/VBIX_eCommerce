@@ -21,7 +21,7 @@ class Otp : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val v = inflater.inflate(R.layout.fragment_otp, container, false)
-        val btn = v.findViewById<View>(R.id.verify_otp) as Button
+        val btn = v.findViewById<View>(R.id.Otp_btn_verify) as Button
 
         btn.setOnClickListener {
             fragmentManager?.beginTransaction()?.detach(Otp())

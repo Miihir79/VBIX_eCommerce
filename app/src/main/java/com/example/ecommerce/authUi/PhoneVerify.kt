@@ -21,7 +21,7 @@ class PhoneVerify : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val v = inflater.inflate(R.layout.fragment_phone_verify, container, false)
-        val btn = v.findViewById<View>(R.id.get_otp) as Button
+        val btn = v.findViewById<View>(R.id.Vrfy_btn_getOtp) as Button
 
         btn.setOnClickListener {
             fragmentManager?.beginTransaction()?.detach(PhoneVerify())

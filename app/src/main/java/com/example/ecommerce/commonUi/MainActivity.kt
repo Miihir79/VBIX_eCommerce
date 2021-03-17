@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-        button.setOnClickListener {
+        spls_btn_GS.setOnClickListener {
 
             val intent = Intent(applicationContext, FragmentContainer::class.java)
             startActivity(intent)
