@@ -1,5 +1,5 @@
 # VBIX_eCommerce
-An app made during internship for a client.
+A generic design of an e-commerce app with basic features and UI implemented as a part of internship at VBiX.
 
 ## Screenshots of the app UI
 <table>
