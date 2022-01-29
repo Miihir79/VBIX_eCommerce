@@ -1,5 +1,5 @@
 # VBIX_eCommerce
-A generic design of an e-commerce app with basic features and UI implemented as a part of internship at VBiX.
+A generic design of an e-commerce app with basic features and UI implemented as a part of 3 month internship at VBiX as an Android Developer.
 
 ## Screenshots of the app UI
 <table>
