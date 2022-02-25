@@ -1,4 +1,10 @@
 # VBIX_eCommerce
+<p>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"/>
+</p>
+
+### About 
 A generic design of an e-commerce app with basic features and UI implemented as a part of 3 month internship at VBiX as an Android Developer.
 
 ## Screenshots of the app UI
